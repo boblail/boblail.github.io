@@ -1,0 +1,178 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$base-font-family: Merriweather;
+$base-font-size: 19px;
+$base-line-height: 1.75;
+$base-font-weight: 300;
+$spacing-unit: ($base-font-size * $base-line-height);
+
+$brand-color: #00c1a1;
+
+@import "minima";
+
+.site-header,
+.site-footer,
+.pagination {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 0.88em;
+}
+
+.site-header {
+  border-top: none;
+  min-height: $spacing-unit * 1.1729323308;
+
+  // .wrapper {
+  //   display: flex;
+  //   flex-direction: row;
+  //
+  //   .site-title {
+  //     flex-grow: 1;
+  //   }
+  // }
+}
+
+.avatar {
+  float: left;
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  margin-right: 0.5em;
+  position: relative;
+  top: 8px;
+}
+
+.page-content {
+  padding: 4rem 0;
+}
+
+.post-title {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.post-link {
+  font-weight: 900;
+  font-size: 1em;
+  color: inherit !important;
+}
+
+.post-meta {
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  color: #555;
+  font-weight: 400;
+}
+
+.post-list {
+  .post-meta {
+    position: relative;
+    top: 8px;
+  }
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  li {
+    margin-bottom: 2 * $spacing-unit;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, iframe,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit;
+}
+
+// Don't darken visited links
+a:visited { color: $brand-color; }
+
+pre, code {
+  font-family: 'SFMono-Regular',Consolas,Liberation Mono,Menlo,Courier,monospace;
+  background: rgb(243, 244, 244);
+  border: none;
+  border-radius: 0;
+}
+
+blockquote {
+  color: #555;
+  font-size: inherit;
+  letter-spacing: inherit;
+  font-style: inherit;
+  font-family: 'Open Sans';
+  font-weight: 400;
+
+  padding: 2px ($spacing-unit / 2);
+
+  border-left: 6px solid #f0f0f0;
+
+  // border: none;
+  // padding: 0 2em;
+  //
+  // position: relative;
+  //
+  // &:after {
+  //   content: '“';
+  //   color: #eaeaea;
+  //   font-size: 6em;
+  //   font-weight: bold;
+  //   line-height: 0.5em;
+  //   position: absolute;
+  //   left: -0.15em;
+  //   top: 0.08em;
+  //   z-index: -1;
+  //   font-family: 'Georgia';
+  //   font-style: normal;
+  // }
+}
+
+.post-list {
+  h3 ~ h3 {
+    display: none;
+  }
+}
+
+figure.book-cover {
+  float: right;
+  width: 8em;
+  margin-left: 1em;
+}
+
+.post-content {
+  h3 {
+    font-size: 1.125em;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+}
+
+.post-list,
+.post-content {
+  u {
+    text-decoration: none;
+    background-color: #fffdbf;
+    background-color: #fbf8d0;
+  }
+}
+
+dl {
+  dt {
+    color: #111;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    float: left;
+    clear: both;
+    max-width: 7em;
+  }
+
+  dd {
+    margin: .5em 0 .5em 8em;
+  }
+}
+
+.page-number {
+  padding: 0 1em;
+}
