@@ -1,0 +1,212 @@
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,700,900|Open+Sans:400,400i,700,700i" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon.png">
+  <style type="text/css">
+    body {
+      font: 300 19px/1.75 Merriweather;
+    }
+    article {
+      margin: 3rem auto;
+      max-width: -webkit-calc(768px - (33.25px * 2));
+      max-width: calc(768px - (33.25px * 2));
+      padding-right: 33.25px;
+      padding-left: 33.25px;
+    }
+    article p, figure {
+      margin-bottom: 33.25px;
+    }
+    h1 {
+      font-size: 2em;
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+    .process {
+      font-size: 0.88em;
+      height: 2em;
+      margin-bottom: 1em;
+      position: relative;
+    }
+    .process .tasks {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .process .axis {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+    }
+    .component {
+      flex-grow: 0;
+      flex-shrink: 0;
+      position: relative;
+      height: 100%;
+      border-bottom: 1px solid black;
+    }
+    .component.blocked {
+      background: rgba(255, 0, 0, 0.1);
+    }
+    /* .component.start {
+      width: 2em;
+      background: rgba(36, 169, 36, 0.3);
+    }
+    .component.end {
+      width: 2em;
+      background: rgba(0, 0, 0, 0.3);
+    } */
+    .component.line {
+      flex-grow: 1;
+    }
+    .component.queue {
+      width: 6em;
+      border-bottom: 6px solid black;
+    }
+    .component.worker {
+      width: 2em;
+      margin-bottom: -4px;
+    }
+    .task {
+      border-radius: 0.1875em;
+      height: 1em;
+      width: 1em;
+      margin-left: -0.5em; /* center on `left` */
+      background: black;
+      position: absolute;
+      transition: left 0.2s linear, bottom 0.1s ease-out 0.05s;
+      bottom: 2px;
+      left: 0px;
+      border: 1px solid white;
+      color: white;
+      box-sizing: content-box;
+    }
+    .task.defective {
+      background: red;
+    }
+    .task > span {
+      font-family: sans-serif;
+      font-size: 0.75em;
+      line-height: 1.333333333333em;
+      text-align: center;
+      display: block;
+    }
+    .task.ghost {
+      background: rgba(0,0,0,0.1);
+      bottom: 7px;
+    }
+    figure {
+      margin: 0;
+    }
+    figcaption {
+      font-family: sans-serif;
+      font-size: 0.66em;
+      font-weight: 800;
+    }
+  </style>
+</head>
+<body>
+  <article>
+    <h1>Work-in-Progress Constraints</h1>
+    <p>
+      "Kanbans" like GitHub's Project Board and Trello have become popular. They
+      are very useful for depicting the movement of tasks through a process and
+      revealing backlogs.
+    </p>
+
+    <p>
+      Here's a simple assembly line with an easy task followed by a difficult task.
+    </p>
+
+    <figure>
+      <div id="process_1" class="process"></div>
+      <figcaption>
+        <div>Completed: <span id="process_1_completed_count">0</span></div>
+      </figcaption>
+    </figure>
+
+    <p>
+      Notice how the work piles up in the second Queue.
+    </p>
+
+    <figure>
+      <div id="process_2" class="process"></div>
+      <figcaption>
+        <div>Completed: <span id="process_2_completed_count">0</span></div>
+      </figcaption>
+    </figure>
+
+    <button id="introduce_defect">Introduce Defect</button>
+  </article>
+
+  <script src="flow.js"></script>
+  <script>
+
+    // process.tasks([ 1, 1, 1.5, 2, 3.5, 3, 1.5, 1, 1.25, 1, 1, 3, 2.5, 1.75 ]);
+    let p1worker, p2worker;
+    window.p1 = FLOW.createProcess('process_1')
+      .addLine()
+      .addWorker((worker) => { p1worker = worker })
+      .addLine()
+      .addQueue()
+      .addWorker((worker) => {
+        worker.rate(16);
+      })
+      .addLine();
+
+    p1.play();
+
+    const p1Completed = document.getElementById('process_1_completed_count');
+    p1.on('task:completed', () => {
+      p1Completed.textContent = p1.end.tasksCount();
+    });
+    p1.on('task:defectDiscovered', () => {
+      p1.pause();
+    });
+
+    window.p2 = FLOW.createProcess('process_2')
+      .addLine()
+      .addWorker((worker) => { p2worker = worker })
+      .addLine()
+      .addQueue((queue) => {
+        queue.wipConstraint(4);
+      })
+      .addWorker((worker) => {
+        worker.rate(16);
+      })
+      .addLine();
+
+    p2.play();
+
+    const p2Completed = document.getElementById('process_2_completed_count');
+    p2.on('task:completed', () => {
+      p2Completed.textContent = p2.end.tasksCount();
+    });
+    p2.on('task:defectDiscovered', () => {
+      p2.pause();
+    });
+
+    const introduceDefectButton = document.getElementById('introduce_defect');
+    introduceDefectButton.addEventListener('click', () => {
+      // p1worker._tasks[0].introduceDefect();
+      // p2worker._tasks[0].introduceDefect();
+      p1worker.introduceDefect();
+      p2worker.introduceDefect();
+    });
+  </script>
+  <!--
+
+      SPECS
+        - multiple processes animate on the same timer, but can be individually started and stopped
+        - tasks move at an even pace but they don't take more ticks to traverse a line on a wider screen
+        - a queue with a WIP Constraint is blocked when it holds that many tasks
+        - a line that can't yield a task can't draw a task
+        - tasks fill a queue right-to-left
+        - if tasks can't physically fit in a queue, they're drawn with compression
+        - there's a minimum amount of space between tasks in a queue; if tasks can't be drawn with more compression, the last tasks simply aren't drawn
+        - a task is held by a worker for N ticks where N is the task's effort * the worker's rate
+
+  -->
+</body>
+</html>
