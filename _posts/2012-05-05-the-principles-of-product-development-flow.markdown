@@ -27,7 +27,7 @@ _The Principles of Product Development Flow_ is organized into 9 chapters and 17
 
 Product developers measure things like cycle time, value-add time, and other “proxy variables”. What we don’t measure is how these variables interact. As a result, we can’t answer questions like _Which is less expensive: a 1-month delay or a $5,000 increase in expense?_ or _Is this feature worth pursuing if it will take twice as long to implement?_
 
-To answer these questions we must express metrics in a common unit, lifecycle profits. Converting everything to dollars also reveals a critical insight: <u>the best business plan is seldom the optimization of a _single_ proxy variable.</u> (It’s seldom the _most efficient_ or _quickest-to-market_ plan.) The best plan tends to be a “u-curve optimization” that optimizes the _trade-offs_ between single variables.
+To answer these questions we must express metrics in a common unit, lifecycle profits. Converting everything to dollars also reveals a critical insight: <u>the best business plan is seldom the optimization of a <em>single</em> proxy variable.</u> (It’s seldom the _most efficient_ or _quickest-to-market_ plan.) The best plan tends to be a “u-curve optimization” that optimizes the _trade-offs_ between single variables.
 
 ### The Freshest Possible Information
 > To manage product development effectively, we must recognize that valuable new information is constantly arriving throughout the development cycle. (p38)
