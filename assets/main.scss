@@ -3,7 +3,7 @@
 ---
 
 $base-font-family: Merriweather;
-$base-font-size: 19px;
+$base-font-size: 18px;
 $base-line-height: 1.75;
 $base-font-weight: 300;
 $spacing-unit: ($base-font-size * $base-line-height);
@@ -24,15 +24,6 @@ $brand-color: #00c1a1;
 .site-header {
   border-top: none;
   min-height: $spacing-unit * 1.1729323308;
-
-  // .wrapper {
-  //   display: flex;
-  //   flex-direction: row;
-  //
-  //   .site-title {
-  //     flex-grow: 1;
-  //   }
-  // }
 }
 
 .avatar {
@@ -100,39 +91,26 @@ pre, code {
 
 blockquote {
   color: #555;
-  font-size: inherit;
   letter-spacing: inherit;
   font-style: inherit;
-  font-family: 'Open Sans';
-  font-weight: 400;
-
-  padding: 2px ($spacing-unit / 2);
-
-  border-left: 6px solid #f0f0f0;
-
-  // border: none;
-  // padding: 0 2em;
-  //
-  // position: relative;
-  //
-  // &:after {
-  //   content: '“';
-  //   color: #eaeaea;
-  //   font-size: 6em;
-  //   font-weight: bold;
-  //   line-height: 0.5em;
-  //   position: absolute;
-  //   left: -0.15em;
-  //   top: 0.08em;
-  //   z-index: -1;
-  //   font-family: 'Georgia';
-  //   font-style: normal;
-  // }
+  margin: $spacing-unit 0;
+  padding: 0 ($spacing-unit * 1.5);
+  border-left: none;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: 1.25em;
 }
 
 .post-list {
   h3 ~ h3 {
     display: none;
+  }
+
+  blockquote {
+    font-size: 1em;
+    color: inherit;
+    margin-top: 0;
+    padding: 0;
   }
 }
 
