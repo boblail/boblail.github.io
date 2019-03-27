@@ -246,8 +246,8 @@ FLOW = (function() {
     }
 
     acceptTaskElement(element) {
-      element.style.left = this.left;
-      element.style.bottom = 2;
+      element.style.left = `${this.left}px`;
+      element.style.bottom = '4px';
     }
 
     tasksCount() {
@@ -340,7 +340,7 @@ FLOW = (function() {
     draw() {
       super.draw();
       this._tasks.forEach((task) => {
-        task.element().style.left = this.left + (this.width * task.percentLeft);
+        task.element().style.left = `${this.left + (this.width * task.percentLeft)}px`;
       });
     }
 
@@ -413,7 +413,7 @@ FLOW = (function() {
       super.draw();
       for(let i = 0; i < this._tasks.length; i++) {
         let element = this._tasks[i].element();
-        element.style.left = this.taskLefts[i];
+        element.style.left = `${this.taskLefts[i]}px`;
 
         // so that, when depicted with compression,
         // the rightmost task is on top of the rest.
@@ -458,7 +458,7 @@ FLOW = (function() {
     }
 
     acceptTaskElement(element) {
-      element.style.bottom = 7;
+      element.style.bottom = '13px';
     }
   }
 
@@ -508,8 +508,8 @@ FLOW = (function() {
     }
 
     acceptTaskElement(element) {
-      element.style.left = this.left + (this.width / 2);
-      element.style.bottom = 0;
+      element.style.left = `${this.left + (this.width / 2)}px`;
+      element.style.bottom = '0px';
     }
 
     introduceDefect() {

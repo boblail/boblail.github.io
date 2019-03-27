@@ -79,6 +79,14 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, iframe,
   margin-bottom: $spacing-unit;
 }
 
+figcaption {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 0.75em;
+  color: #555;
+}
+
+
 // Don't darken visited links
 a:visited { color: $brand-color; }
 
