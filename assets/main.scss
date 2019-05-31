@@ -91,10 +91,15 @@ figcaption {
 a:visited { color: $brand-color; }
 
 pre, code {
-  font-family: 'SFMono-Regular',Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-family: 'SFMono-Regular', Consolas, Liberation Mono, Menlo, Courier, monospace;
   background: rgb(243, 244, 244);
   border: none;
   border-radius: 0;
+}
+
+// override
+.highlighter-rouge .highlight {
+  background: rgb(243, 244, 244);
 }
 
 blockquote {

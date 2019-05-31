@@ -12,7 +12,7 @@ I have a program that lists all of my company’s projects and various statistic
 
 It turns out, it’s pretty easy to do with [grit](https://github.com/mojombo/grit) and [bundler](https://github.com/bundler/bundler).
 
-{% highlight ruby %}
+```ruby
 require "grit"
 require "bundler"
 
@@ -21,4 +21,4 @@ lockfile = repo.tree/"Gemfile.lock"
 locked_gems = Bundler::LockfileParser.new(lockfile.data)
 rails = locked_gems.specs.find { |spec| spec.name == "rails" }
 rails.version
-{% endhighlight %}
+```
