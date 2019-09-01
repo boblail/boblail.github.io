@@ -135,6 +135,13 @@ p.nomargin {
   margin-bottom: 0;
 }
 
+hr {
+  margin: ($spacing-unit * 2) 0;
+  border: none;
+  height: 1px;
+  background: #e8e8e8;
+}
+
 .post-list {
   h3 ~ h3 {
     display: none;
@@ -172,6 +179,34 @@ figure.book-cover {
 
   h3 + blockquote {
     margin-top: 1.25em;
+  }
+
+  h3.endnotes {
+    font-family: 'Open Sans';
+    font-size: 1.125em;
+    margin: 0 0 0.75em;
+  }
+
+  dl.endnotes {
+    font-size: 0.75em;
+    font-family: 'Open Sans';
+    line-height: 1.5em;
+
+    dt {
+      max-width: 1em;
+      width: 1em;
+      text-align: right;
+    }
+
+    dd {
+      margin-left: 1.5em;
+    }
+
+    .back {
+      font-size: 0.75em;
+      display: block;
+      margin: 0.125em 0 1.875em;
+    }
   }
 }
 
