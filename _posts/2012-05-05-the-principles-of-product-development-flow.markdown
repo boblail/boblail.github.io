@@ -15,7 +15,8 @@ excerpt_separator: <!--more-->
 </figure>
 
 
-> In the past you may have been told that the key to economic success is efficiency…[or] conformance to plan… I would suggest that both of these popular beliefs are fundamentally wrong. The key to economic success is <u>making good economic choices</u> with <u>the freshest possible information</u>. (p235, emphasis mine)
+> In the past you may have been told that the key to economic success is efficiency…[or] conformance to plan… I would suggest that both of these popular beliefs are fundamentally wrong. The key to economic success is <u>making good economic choices</u> with <u>the freshest possible information</u>.
+> <span class="author">p235, emphasis mine</span>
 
 <!--more-->
 
@@ -24,14 +25,16 @@ Armed with the wrong definition of economic success, we would naturally measure�
 _The Principles of Product Development Flow_ is organized into 9 chapters and 175 brief principles.
 
 ### Making Good Economic Choices
-> Perhaps the single most important weakness of the current orthodoxy is its failure to correctly quantify economics. (p4)
+> Perhaps the single most important weakness of the current orthodoxy is its failure to correctly quantify economics.
+> <span class="author">p4</span>
 
 Product developers measure things like cycle time, value-add time, and other “proxy variables”. What we don’t measure is how these variables interact. As a result, we can’t answer questions like _Which is less expensive: a 1-month delay or a $5,000 increase in expense?_ or _Is this feature worth pursuing if it will take twice as long to implement?_
 
 To answer these questions we must express metrics in a common unit, lifecycle profits. Converting everything to dollars also reveals a critical insight: <u>the best business plan is seldom the optimization of a <em>single</em> proxy variable.</u> (It’s seldom the _most efficient_ or _quickest-to-market_ plan.) The best plan tends to be a “u-curve optimization” that optimizes the _trade-offs_ between single variables.
 
 ### The Freshest Possible Information
-> To manage product development effectively, we must recognize that valuable new information is constantly arriving throughout the development cycle. (p38)
+> To manage product development effectively, we must recognize that valuable new information is constantly arriving throughout the development cycle.
+> <span class="author">p38</span>
 
 Reinertsen likens product development to warfare. There are significant unknowns; new threats and opportunities appear continually; small advantages or disadvantages can yield disproportionate results. _Payoff_ changes constantly: endeavors become more or less costly and more or less profitable, continually altering the optimal strategy.
 
@@ -41,7 +44,8 @@ Reinertsen likens product development to warfare. There are significant unknowns
 
 Optimizing trade-offs and maximizing learning are insights basic to Reinertsen’s view of product development, but they are not the focus of his book. Reinertsen spends more time developing the powerful concept of queues.
 
-> Today we realize that inventory is the biggest source of waste in manufacturing. Work product lying idle on the factory floor destroys quality, efficiency, and cycle time. (p34)
+> Today we realize that inventory is the biggest source of waste in manufacturing. Work product lying idle on the factory floor destroys quality, efficiency, and cycle time.
+> <span class="author">p34</span>
 
 Queues are invisible inventory. <u>Long queues of work-in-progress destroy quality, efficiency, and cycle time.</u> They have many detrimental effects, but because intellectual work-in-progress is difficult to see, queues often go unmeasured.
 
@@ -51,8 +55,8 @@ Queue size is an invaluable metric, but like any proxy variable we do best to ex
 
 _The Principles of Product Development Flow_ contains 175 principles. Many of them cluster around a few important themes:
 
-- **Make queues visible.** A <u>Kanban</u> can be used to show work-in-progress in real time while <u>Continuous Flow Diagrams</u> give many insights into queues over time.
-- **Reduce batch size.** Iterating quickly minimizes the impact of queues without adding resources. It also accelerates feedback and learning. Focus on reducing <u>transaction cost</u>—the cost of releasing a batch—to make smaller batches more affordable. <u>Unit Testing</u> and <u>Continuous Integration</u> are strategies for lowering transaction cost in software development.
-- **Plan in advance for flexibility.** Flexibility enables you to react to emerging queues. Reinertsen’s most frequent example of planned flexibility is <u>cross-training employees</u>. <u>Hiring reserves</u> is another.
-- **Prize initiative.** Those closest to a problem can react quickest—and with the freshest possible information. Empower them to seize opportunities while coordinating a team’s efforts by <u>establishing a shared vision</u> and <u>setting parameters for decisions.</u>
+- **Make queues visible.** A Kanban can be used to show work-in-progress in real time while Continuous Flow Diagrams give many insights into queues over time.
+- **Reduce batch size.** Iterating quickly minimizes the impact of queues without adding resources. It also accelerates feedback and learning. Focus on reducing transaction cost—the cost of releasing a batch—to make smaller batches more affordable. Unit Testing and Continuous Integration are strategies for lowering transaction cost in software development.
+- **Plan in advance for flexibility.** Flexibility enables you to react to emerging queues. Reinertsen’s most frequent example of planned flexibility is cross-training employees. Hiring reserves is another.
+- **Prize initiative.** Those closest to a problem can react quickest—and with the freshest possible information. Empower them to seize opportunities while coordinating a team’s efforts by establishing a shared vision and setting parameters for decisions.
 - **Co-locate workers.** The best way to shrink transaction cost in communication and to foster a shared vision within a team is to put teammates in the same room.

@@ -9,7 +9,8 @@ $base-font-weight: 300;
 $spacing-unit: ($base-font-size * $base-line-height);
 $content-width: 768px;
 
-$brand-color: #00c1a1;
+// $brand-color: hsl(170, 100%, 38%); // in resume
+$brand-color: hsl(172, 100%, 35%);
 
 @import "minima";
 
@@ -108,13 +109,30 @@ pre, code {
 blockquote {
   color: #555;
   letter-spacing: inherit;
-  font-style: inherit;
-  margin: $spacing-unit 0;
-  padding: 0 ($spacing-unit * 1.5);
+  margin: ($spacing-unit * 1.5) 0;
+  padding: 0 $spacing-unit;
   border-left: none;
   font-family: inherit;
   font-weight: inherit;
-  font-size: 1.25em;
+  font-size: 1.1875em;
+  font-style: italic;
+
+  .author {
+    display: block;
+    font-size: 0.75em;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+    color: #333;
+
+    a {
+      color: inherit;
+    }
+  }
+}
+
+p.nomargin {
+  margin-bottom: 0;
 }
 
 .post-list {
@@ -137,10 +155,23 @@ figure.book-cover {
 }
 
 .post-content {
-  h3 {
-    font-size: 1.125em;
+  h2 {
+    font-size: 1.75em;
     font-weight: 700;
-    margin-bottom: 0;
+    margin-top: $spacing-unit * 2;
+    margin-bottom: $spacing-unit / 2;
+  }
+
+  h3 {
+    font-size: 1.1875em;
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #333;
+    margin: 1.75em 0 0.25em;
+  }
+
+  h3 + blockquote {
+    margin-top: 1.25em;
   }
 }
 
@@ -148,8 +179,7 @@ figure.book-cover {
 .post-content {
   u {
     text-decoration: none;
-    background-color: #fffdbf;
-    background-color: #fbf8d0;
+    background-color: hsl(54, 100%, 90%);
   }
 }
 

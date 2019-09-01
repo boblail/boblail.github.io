@@ -14,7 +14,8 @@ excerpt_separator: <!--more-->
   <img src="/assets/about-face.jpg" />
 </figure>
 
-> Engineering departments follow rigorous methods that ensure the _feasibility_ and quality of the technology. Similarly, marketing, sales, and other business units follow methods for ensuring the commercial _viability_ of new products. What’s left out is a repeatable, predictable, and analytical process for ensuring **_desirability_**. (p9, 4th ed.)
+> Engineering departments follow rigorous methods that ensure the _feasibility_ and quality of the technology. Similarly, marketing, sales, and other business units follow methods for ensuring the commercial _viability_ of new products. What’s left out is a repeatable, predictable, and analytical process for ensuring **_desirability_**.
+> <span class="author">p9, 4th ed.</span>
 
 <!--more-->
 
@@ -30,13 +31,15 @@ Designing for oneself is exciting. You get the benefit of instant, visceral feed
 Alan Cooper’s _[About Face](https://www.amazon.com/dp/0470084111/ref=asc_df_04700841115833972)_ details a process for building the _right product._ And the first step is to tackle those three degrees of separation.
 
 ### Understanding customers
-> If you want to create good design solutions, there is no avoiding the hard work of really understanding the people who will interact with your product. (xxxiii)
+> If you want to create good design solutions, there is no avoiding the hard work of really understanding the people who will interact with your product.
+> <span class="author">xxxiii</span>
 
 “Really understanding” customers goes deeper than identifying their chief complaints with the competition, recording all your conversations with them, or identifying the tasks they need to perform. These methods are quite enough to create lists of features to develop; but they can not discover whether those features are, in the end, _desirable_ to your customers.
 
 It’s impossible to know if something will be desirable just by listening to what the customer asks for — or even by looking at what the customer _does._ One must understand her _context_ and her _motivations_ as well.
 
-> Goals, not features, are the key to product success (p25)
+> Goals, not features, are the key to product success
+> <span class="author">p25</span>
 
 Goals are the centerpiece of Cooper’s method. He outlines how to conduct research to ascertain them and how to design in light of them.
 
@@ -55,13 +58,15 @@ Armed with an understanding of the customer’s goals, a product team is poised 
 
 Interaction Designers at Cooper pivot from Research to Design by storyboarding **scenarios** of ideal interactions between the customer and the still-imaginary product. These scenarios define the customer’s needs; and those needs form the product’s vision: a statement of the problem the product is solving.
 
-> It is absolutely critical to define and agree upon the _what_ before we move on to the next questions: _how_ the product looks, behaves, operates, and feels. (p114)
+> It is absolutely critical to define and agree upon the _what_ before we move on to the next questions: _how_ the product looks, behaves, operates, and feels.
+> <span class="author">p114</span>
 
 Without that clear vision, there’s no way of testing the fitness of a design (which results in development taking a more meandering/expensive path to success). _With_ that kind of focus, however, [every team member can see how every detail of their work contributes to the customer’s success](https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d).
 
 ### Interaction Design
 Alan Cooper calls this process Interaction Design. It differs from Visual Design (which concerns itself less with behavior and more with brand to achieve an emotional response) and Architectural Design (which concerns itself more with the organization of code), although they are closely related. Interaction Design determines in large part _what_ the product does, how it makes its state and options apparent, and how it responds to users’ input.
 
-> Humans treat and respond to computers and other interactive products as if they were people. We should thus pay real attention to the “personality” projected by our digital products. (p218)
+> Humans treat and respond to computers and other interactive products as if they were people. We should thus pay real attention to the “personality” projected by our digital products.
+> <span class="author">p218</span>
 
 Understanding customers’ goals enables interaction designers to articulate features in customers’ terms rather than implementation terms and to put users’ needs ahead of the computer’s. A deep understanding of—and empathy for—them makes it easier to see what tasks are superfluous and can be eliminated, what error messages or notices are irrelevant, and what input constraints do more to serve the database than the customer. The result is a product with a more courteous, intelligent, and respectful “personality”: a more likable product.
