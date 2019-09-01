@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "The Principles of Product Development Flow"
-date:   2012-05-05
+title: The Principles of Product Development Flow
+date: 2012-05-05
+read_time: 4
 categories: book-reports
 redirect_from:
  - /post/22482443493/the-principles-of-product-development-flow

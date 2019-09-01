@@ -54,9 +54,12 @@ $brand-color: #00c1a1;
 
 .post-meta {
   font-family: 'Open Sans';
-  text-transform: uppercase;
   color: #555;
   font-weight: 400;
+
+  time {
+    text-transform: uppercase;
+  }
 }
 
 .post-list {

@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "The Design of Everyday Things"
-date:   2012-05-05
+title: The Design of Everyday Things
+date: 2012-05-05
+read_time: 4
 categories: book-reports
 redirect_from:
  - /post/22456085166/the-design-of-everyday-things

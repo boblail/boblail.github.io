@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "How to read a project’s dependencies directly from git"
-date:   2012-09-07
+title: How to read a project’s dependencies directly from git
+date: 2012-09-07
+read_time: 1
 redirect_from:
  - /post/31102005688/how-to-read-a-projects-dependencies-directly-from
  - /day/2012/09/07

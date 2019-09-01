@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "About Face"
-date:   2015-05-09
+title: About Face
+date: 2015-05-09
+read_time: 4
 categories: book-reports
 redirect_from:
  - /post/112451437742/about-face
