@@ -30,6 +30,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-octicons
 
 # https://jekyllrb.com/docs/pagination/
 # newer version: https://github.com/sverrirs/jekyll-paginate-v2
