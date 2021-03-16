@@ -1,0 +1,122 @@
+#!/usr/bin/env ruby
+
+require "yaml"
+
+categories = YAML.load_file("books.yaml").fetch("categories")
+
+output = <<~MARKDOWN
+---
+layout: default
+title: Books
+---
+
+# Books I Have Known And Loved
+
+Below are the books I've read to find ways to improve my craft.
+I grouped them into #{categories.length} categories:
+MARKDOWN
+
+categories.each do |category|
+  name = category.fetch('name')
+  slug = name.downcase.gsub(/[^\w ]/, '').tr(' ', '-')
+  # output << " 1. [#{name}](\##{slug}) (#{category.fetch('books').length})\n"
+  output << " 1. [#{name}](\##{slug})\n"
+end
+
+output << <<~MARKDOWN
+{: style="font-family: 'Open Sans'; font-size: 15.75px"}
+
+Within each category, I sorted the books from most valuable to least
+and gave each a 1–4 rating:
+
+<dl style="font-family: 'Open Sans'; font-size: 15.75px">
+  <dt style="margin: .5em 0 .5em 2em">
+    <div class="book-rating book-rating-4">
+    {% octicon star-fill height:14 %}
+    {% octicon star-fill height:14 %}
+    {% octicon star-fill height:14 %}
+    {% octicon star-fill height:14 %}
+    </div>
+  </dt>
+  <dd>
+    Life-changing! — If you don't have this one, buy it now
+  </dd>
+
+  <dt style="margin: .5em 0 .5em 2em">
+    <div class="book-rating book-rating-3">
+    {% octicon star-fill height:14 %}
+    {% octicon star-fill height:14 %}
+    {% octicon star-fill height:14 %}
+    {% octicon star height:14 %}
+    </div>
+  </dt>
+  <dd>
+    Good! — I'm likely to re-read this
+  </dd>
+
+  <dt style="margin: .5em 0 .5em 2em">
+    <div class="book-rating book-rating-2">
+    {% octicon star-fill height:14 %}
+    {% octicon star-fill height:14 %}
+    {% octicon star height:14 %}
+    {% octicon star height:14 %}
+    </div>
+  </dt>
+  <dd>
+    Fair
+  </dd>
+
+  <dt style="margin: .5em 0 .5em 2em">
+    <div class="book-rating book-rating-1">
+    {% octicon star-fill height:14 %}
+    {% octicon star height:14 %}
+    {% octicon star height:14 %}
+    {% octicon star height:14 %}
+    </div>
+  </dt>
+  <dd>
+    Skip it
+  </dd>
+</dl>
+MARKDOWN
+
+categories.each do |category|
+  output << <<~MARKDOWN
+    * * *
+    ### #{category.fetch('name')}
+  MARKDOWN
+
+  category.fetch('books').each do |book|
+    # Rating
+    rating = book['rating'] # (book.fetch('rating', 0) * 0.6).round
+    if rating
+      output << "<div class=\"book-rating book-rating-#{rating}\">"
+      output <<
+        ((1..4).map do |i|
+          if i <= rating
+            "{% octicon star-fill height:14 %}"
+          else
+            "{% octicon star height:14 %}"
+          end
+        end).join(" ")
+      output << "</div>\n"
+    end
+
+    # Title, Author, URL
+    title = "**#{book.fetch('title')}**"
+    title << " (#{book['authors']})" if book['authors']
+    title = "[#{title}](#{book['url']})" if book['url']
+    output << "#{title}\n{: class=\"book-name\"}\n\n"
+
+    if book['notes']
+      output << book['notes']
+      output << "<br><small>Read in #{book['years_read']}</small>\n" if book['years_read']
+      output << " <small>(<a href=\"#{book['book_report']}\">Book report</a>)</small>\n" if book['book_report']
+    else
+      output << '&nbsp;'
+    end
+    output << "{: class=\"book-notes\"}\n\n"
+  end
+end
+
+File.write('books.markdown', output)

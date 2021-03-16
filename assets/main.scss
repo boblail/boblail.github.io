@@ -236,3 +236,53 @@ dl {
 .page-number {
   padding: 0 1em;
 }
+
+.book-rating {
+  font-size: 12px;
+  line-height: 1;
+  color: #d8d8d8;
+  letter-spacing: -1px;
+
+  // &.book-rating-5 { color: hsl(136deg, 100%, 35%); }
+  // &.book-rating-4 { color: hsl(89deg, 87%, 41%); }
+  // &.book-rating-3 { color: hsl(72deg, 78%, 46%); }
+  // &.book-rating-3 { color: hsl(69deg, 96%, 41%); }
+  // &.book-rating-2 { color: hsl(59deg, 58%, 56%); }
+  // &.book-rating-1 { color: hsl(50deg, 9%, 59%); }
+
+  // &.book-rating-3 { color: hsl(136deg, 100%, 35%); }
+  // &.book-rating-2 { color: hsl(88deg, 93%, 41%); }
+  // &.book-rating-1 { color: hsl(50deg, 0%, 59%); }
+
+  &.book-rating-4 { color: hsl(136deg, 100%, 35%); }
+  &.book-rating-3 { color: hsl(87deg, 91%, 41%); }
+  &.book-rating-2 { color: hsl(69deg, 100%, 41%); }
+  &.book-rating-1 { color: hsl(50deg, 0%, 59%); }
+
+  svg path { fill: currentColor; }
+}
+
+.book-name {
+  margin: 0 0 0.25em 0;
+
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 15.75px;
+
+  a {
+    color: inherit;
+  }
+
+  strong {
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 18px;
+  }
+}
+
+.book-notes {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 15.75px;
+  line-height: 1.5em;
+}
