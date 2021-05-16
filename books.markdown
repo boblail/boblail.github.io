@@ -5,8 +5,8 @@ title: Books
 
 # Books I Have Known And Loved
 
-Below are the books I've read to find ways to improve my craft.
-I grouped them into 8 categories:
+These are the books I've read as I've looked for ways to improve my craft.
+They're grouped into 8 categories:
  1. [Product Design & Discovery](#product-design--discovery)
  1. [Process, Strategy, Management](#process-strategy-management)
  1. [Frameworks for Learning & Professional Development](#frameworks-for-learning--professional-development)
@@ -17,8 +17,8 @@ I grouped them into 8 categories:
  1. [My Current Reading List](#my-current-reading-list)
 {: style="font-family: 'Open Sans'; font-size: 15.75px"}
 
-Within each category, I sorted the books from most valuable to least
-and gave each a 1–4 rating:
+Within each category, the books are sorted from most valuable to least;
+and I gave each an even simpler rating:
 
 <dl style="font-family: 'Open Sans'; font-size: 15.75px">
   <dt style="margin: .5em 0 .5em 2em">
@@ -30,7 +30,7 @@ and gave each a 1–4 rating:
     </div>
   </dt>
   <dd>
-    Life-changing! — If you don't have this one, buy it now
+    Life-changing! — If you don't have this book, go buy it now
   </dd>
 
   <dt style="margin: .5em 0 .5em 2em">
@@ -42,7 +42,7 @@ and gave each a 1–4 rating:
     </div>
   </dt>
   <dd>
-    Good! — I'm likely to re-read this
+    Excellent — I'm likely to re-read this books
   </dd>
 
   <dt style="margin: .5em 0 .5em 2em">
@@ -75,12 +75,11 @@ and gave each a 1–4 rating:
 [**The Design of Everyday Things** (Norman)](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
 {: class="book-name"}
 
-Fundamental thinking tools for Interface Design. Entertaining to read —
-Norman's sense of humor is on display throughout. He describes
-the essence of interface design (communication between designer and user)
-and introduces a slew of tools for thinking about it (mental models vs. the
-system image; affordances, mappings, and constraints; forcing functions and
-kinds of errors). A must read!
+Fundamental thinking tools for designing interfaces (like the differences
+between mental models the the system image; affordances, mappings, and
+constraints, and forcing functions; kinds of human errors). It's also
+an entertaining read — Norman explores his subject with a sense of
+humor!
 <br><small>Read in 2011</small>
  <small>(<a href="/book-reports/2012/05/05/the-design-of-everyday-things.html">Book report</a>)</small>
 {: class="book-notes"}
@@ -141,7 +140,13 @@ starting around p160.
 [**Living with Complexity** (Norman)](https://www.amazon.com/Living-Complexity-Press-Donald-Norman/dp/0262528940)
 {: class="book-name"}
 
-&nbsp;{: class="book-notes"}
+Reminds the reader that humans _like_ complexity — baseball would not be
+"better" if it had fewer rules! Unbridled Simplicity isn't the goal
+of Design, Taming Complexity is — the two many have a lot in common,
+but we shouldn't confuse them. _Understandability_ might be a better
+North Star than Simplicity.
+<br><small>Read in 2014</small>
+{: class="book-notes"}
 
 <div class="book-rating book-rating-2">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %} {% octicon star height:14 %}</div>
 [**Badass** (Sierra)](https://www.amazon.com/Badass-Making-Awesome-Kathy-Sierra/dp/1491919019)
@@ -190,7 +195,7 @@ optimizing things like batch size, prioritization, feedback loops,
 and more. Reinertsen draws insights from fields as diverse as lean
 manufacturing, economic theory, queueing theory, telecommunications,
 operating system design, and maneuver warfare. For its density, it
-is incredibly crisp. I found it exhilerating!
+is incredibly crisp. I literally found it exhilerating.
 <br><small>Read in 2012</small>
  <small>(<a href="/book-reports/2012/05/05/the-principles-of-product-development-flow.html">Book report</a>)</small>
 {: class="book-notes"}
@@ -199,7 +204,12 @@ is incredibly crisp. I found it exhilerating!
 [**Implementing Lean Software Development** (Poppendieck)](https://www.amazon.com/Implementing-Lean-Software-Development-Concept/dp/0321437381)
 {: class="book-name"}
 
-My favorite of the Poppendiecks' books on Lean Software Development.
+Of the Poppendiecks' books on Lean Software Development, this
+was the most tactical and wide-ranging. The chapter on Wastes flipped
+my thinking from _optimizing_ a team's process to eliminating parts
+of it altogether. When I did the Value Stream Map for one process,
+the parts that needed to change were suddenly clear. I learned
+to see _pull scheduling_ everywhere from this book.
 <br><small>Read in 2014</small>
 {: class="book-notes"}
 
@@ -244,7 +254,14 @@ limiting growth of teammates and concrete thinks to try and practice.
 
 &nbsp;{: class="book-notes"}
 
+<div class="book-rating book-rating-3">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %}</div>
 [**Hackers & Painters** (Graham)](https://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554)
+{: class="book-name"}
+
+&nbsp;{: class="book-notes"}
+
+<div class="book-rating book-rating-3">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %}</div>
+[**Peopleware** (DeMarco & Lister)](https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113)
 {: class="book-name"}
 
 &nbsp;{: class="book-notes"}
@@ -261,11 +278,7 @@ limiting growth of teammates and concrete thinks to try and practice.
 
 &nbsp;{: class="book-notes"}
 
-[**Peopleware** (DeMarco & Lister)](https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113)
-{: class="book-name"}
-
-&nbsp;{: class="book-notes"}
-
+<div class="book-rating book-rating-2">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %} {% octicon star height:14 %}</div>
 [**Artful Making** (Devin & Austin)](https://www.amazon.com/Artful-Making-Managers-About-Artists/dp/0130086959)
 {: class="book-name"}
 
@@ -277,11 +290,13 @@ limiting growth of teammates and concrete thinks to try and practice.
 
 &nbsp;{: class="book-notes"}
 
+<div class="book-rating book-rating-2">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %} {% octicon star height:14 %}</div>
 [**Remote** (Fried & Heinemeier Hansson)](https://basecamp.com/books/remote)
 {: class="book-name"}
 
 &nbsp;{: class="book-notes"}
 
+<div class="book-rating book-rating-2">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %} {% octicon star height:14 %}</div>
 [**Rework** (Fried & Heinemeier Hansson)](https://basecamp.com/books/rework)
 {: class="book-name"}
 
@@ -333,7 +348,14 @@ about how Josh trains his intuition, stuck in my head.
 [**Design Paradigms** (Petroski)](https://www.amazon.com/Design-Paradigms-Henry-Petroski/dp/0521466490)
 {: class="book-name"}
 
-&nbsp;{: class="book-notes"}
+The author's premise is "The first and most indispensable design tool
+is judgment. The single most important source of judgment lies in learning
+from one's mistakes and those of others." Petroski expands on that
+thought — and puts his creed into action by offering the reader case
+studies of a dozen collapsed bridges and buildings, plane crashes,
+and the _Challenger_ explosion.
+<br><small>Read in 2015</small>
+{: class="book-notes"}
 
 [**Apprenticeship Patterns** (Hoover & Oshineye)](https://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382)
 {: class="book-name"}

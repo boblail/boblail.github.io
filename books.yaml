@@ -9,12 +9,11 @@ categories:
     years_read: 2011
     book_report: /book-reports/2012/05/05/the-design-of-everyday-things.html
     notes: |
-      Fundamental thinking tools for Interface Design. Entertaining to read —
-      Norman's sense of humor is on display throughout. He describes
-      the essence of interface design (communication between designer and user)
-      and introduces a slew of tools for thinking about it (mental models vs. the
-      system image; affordances, mappings, and constraints; forcing functions and
-      kinds of errors). A must read!
+      Fundamental thinking tools for designing interfaces (like the differences
+      between mental models the the system image; affordances, mappings, and
+      constraints, and forcing functions; kinds of human errors). It's also
+      an entertaining read — Norman explores his subject with a sense of
+      humor!
 
   - title: The Lean Startup
     authors: Reiss
@@ -73,6 +72,12 @@ categories:
     url: https://www.amazon.com/Living-Complexity-Press-Donald-Norman/dp/0262528940
     years_read: 2014
     rating: 2
+    notes: |
+      Reminds the reader that humans _like_ complexity — baseball would not be
+      "better" if it had fewer rules! Unbridled Simplicity isn't the goal
+      of Design, Taming Complexity is — the two many have a lot in common,
+      but we shouldn't confuse them. _Understandability_ might be a better
+      North Star than Simplicity.
 
   - title: Badass
     authors: Sierra
@@ -123,7 +128,7 @@ categories:
       and more. Reinertsen draws insights from fields as diverse as lean
       manufacturing, economic theory, queueing theory, telecommunications,
       operating system design, and maneuver warfare. For its density, it
-      is incredibly crisp. I found it exhilerating!
+      is incredibly crisp. I literally found it exhilerating.
 
   - title: Implementing Lean Software Development
     authors: Poppendieck
@@ -131,8 +136,12 @@ categories:
     rating: 4
     years_read: 2014
     notes: |
-      My favorite of the Poppendiecks' books on Lean Software Development.
-    say_more: true
+      Of the Poppendiecks' books on Lean Software Development, this
+      was the most tactical and wide-ranging. The chapter on Wastes flipped
+      my thinking from _optimizing_ a team's process to eliminating parts
+      of it altogether. When I did the Value Stream Map for one process,
+      the parts that needed to change were suddenly clear. I learned
+      to see _pull scheduling_ everywhere from this book.
 
   - title: An Elegant Puzzle
     authors: Larson
@@ -155,7 +164,7 @@ categories:
     authors: Collins
     url: https://www.amazon.com/Good-Great-Some-Companies-Others/dp/0066620996
     rating: 3
-    years_read: 2019? 2020?
+    years_read: 2019?
 
   - title: Multipliers
     authors: Wiseman
@@ -178,6 +187,13 @@ categories:
   - title: Hackers & Painters
     authors: Graham
     url: https://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554
+    rating: 3
+
+  - title: Peopleware
+    authors: DeMarco & Lister
+    url: https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113
+    years_read: 2012
+    rating: 3
 
   - title: Lean Software Development
     authors: Poppendieck
@@ -191,16 +207,12 @@ categories:
     years_read: 2014
     url: https://www.amazon.com/Lean-Mindset-Ask-Right-Questions/dp/0321896904
 
-  - title: Peopleware
-    authors: DeMarco & Lister
-    url: https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113
-    years_read: 2012
-
   - title: Artful Making
     authors: Devin & Austin
     subtitle: What Managers Need to Know about how Artists Work
     url: https://www.amazon.com/Artful-Making-Managers-About-Artists/dp/0130086959
     purchased: 2014-12-06
+    rating: 2
 
   - title: The Mythical Man-Month
     authors: Brooks
@@ -212,10 +224,12 @@ categories:
     authors: Fried & Heinemeier Hansson
     url: https://basecamp.com/books/remote
     years_read: 2019
+    rating: 2
 
   - title: Rework
     authors: Fried & Heinemeier Hansson
     url: https://basecamp.com/books/rework
+    rating: 2
 
 
 
@@ -270,6 +284,13 @@ categories:
     url: https://www.amazon.com/Design-Paradigms-Henry-Petroski/dp/0521466490
     rating: 3
     years_read: 2015
+    notes: |
+      The author's premise is "The first and most indispensable design tool
+      is judgment. The single most important source of judgment lies in learning
+      from one's mistakes and those of others." Petroski expands on that
+      thought — and puts his creed into action by offering the reader case
+      studies of a dozen collapsed bridges and buildings, plane crashes,
+      and the _Challenger_ explosion.
 
   - title: Apprenticeship Patterns
     authors: Hoover & Oshineye

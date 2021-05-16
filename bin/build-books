@@ -12,8 +12,8 @@ title: Books
 
 # Books I Have Known And Loved
 
-Below are the books I've read to find ways to improve my craft.
-I grouped them into #{categories.length} categories:
+These are the books I've read as I've looked for ways to improve my craft.
+They're grouped into #{categories.length} categories:
 MARKDOWN
 
 categories.each do |category|
@@ -26,8 +26,8 @@ end
 output << <<~MARKDOWN
 {: style="font-family: 'Open Sans'; font-size: 15.75px"}
 
-Within each category, I sorted the books from most valuable to least
-and gave each a 1–4 rating:
+Within each category, the books are sorted from most valuable to least;
+and I gave each an even simpler rating:
 
 <dl style="font-family: 'Open Sans'; font-size: 15.75px">
   <dt style="margin: .5em 0 .5em 2em">
@@ -39,7 +39,7 @@ and gave each a 1–4 rating:
     </div>
   </dt>
   <dd>
-    Life-changing! — If you don't have this one, buy it now
+    Life-changing! — If you don't have this book, go buy it now
   </dd>
 
   <dt style="margin: .5em 0 .5em 2em">
@@ -51,7 +51,7 @@ and gave each a 1–4 rating:
     </div>
   </dt>
   <dd>
-    Good! — I'm likely to re-read this
+    Excellent — I'm likely to re-read this books
   </dd>
 
   <dt style="margin: .5em 0 .5em 2em">
