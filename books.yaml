@@ -66,6 +66,17 @@ categories:
     url: https://basecamp.com/shapeup
     rating: 3
     years_read: 2019
+    notes: |
+      A methodology for Product Discovery and Design. I appreciated several
+      ideas in _Shape Up._ I love the idea of incorporating appetite (how much
+      time are we willing to spend on this problem?) into each business bet —
+      that's not only a way of shaping a team's choics without dictating them,
+      but also a way of noticing risk early! Singer also adds to the conversation
+      around low-fi prototyping — it's about more than lowering the cost of
+      discovery and deferring commitment on design details, it's about
+      _delivering_ a baseline for quality and an opportunity to unearth risks
+      earlier.
+    done: false
 
   - title: Living with Complexity
     authors: Norman
@@ -160,12 +171,6 @@ categories:
       [Writing strategies and visions](https://lethain.com/strategies-visions/), and
       [Migrations: the sole scalable fix to tech debt](https://lethain.com/migrations/).
 
-  - title: Good to Great
-    authors: Collins
-    url: https://www.amazon.com/Good-Great-Some-Companies-Others/dp/0066620996
-    rating: 3
-    years_read: 2019?
-
   - title: Multipliers
     authors: Wiseman
     url: https://www.amazon.com/Multipliers-Revised-Updated-Leaders-Everyone/dp/0062663070
@@ -189,23 +194,50 @@ categories:
     url: https://www.amazon.com/Hackers-Painters-Big-Ideas-Computer/dp/1449389554
     rating: 3
 
+  - title: Good to Great
+    authors: Collins
+    url: https://www.amazon.com/Good-Great-Some-Companies-Others/dp/0066620996
+    rating: 2
+    years_read: 2019?
+    notes: |
+      Lucid prose, enjoyable stories, solid read. I don't see myself _rereading_
+      this book, but I do find myself revisiting and applying a few vivid concepts
+      I learned from it: [The Hedgehog Concept](https://www.jimcollins.com/concepts/the-hedgehog-concept.html) and [The Flywheel](https://www.jimcollins.com/concepts/the-flywheel.html).
+
   - title: Peopleware
     authors: DeMarco & Lister
     url: https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113
     years_read: 2012
-    rating: 3
+    rating: 2
+    notes: |
+      This was a book I read early in my career as an Engineering Manager, and it
+      gave me the feeling of distilling much of what Software Engineering Management
+      had learned up to 1999 and handing it forward. It covers a lot of ground. It
+      has held up pretty well.
 
-  - title: Lean Software Development
+  - title: "Lean Software Development: An Agile Toolkit"
     authors: Poppendieck
     rating: 2
     years_read: 2014
     url: https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783
+    notes: |
+      Start with _Implementing Lean Software Development_ (above). This book,
+      published 3 years prior to _Implementing_ has essentially the same
+      content, but I found it arranged better — and expanded where I wanted
+      expansion in _Implementing._ That said, this book is arranged into 22
+      Tools to help you do things like make decisions at the last responsible
+      moment, ship faster, empower workers, and amplify learning.
 
   - title: The Lean Mindset
     authors: Poppendieck
     rating: 2
     years_read: 2014
     url: https://www.amazon.com/Lean-Mindset-Ask-Right-Questions/dp/0321896904
+    notes: |
+      Start with _Implementing Lean Software Development_ (above). This book is a
+      little more philosophical — "mindset" is an apt word. It attempts to capture
+      what a Lean Business believes at its heart about its Purpose, Workers,
+      Customers, the nature of Efficiency and the sources of Innovation.
 
   - title: Artful Making
     authors: Devin & Austin
@@ -295,12 +327,16 @@ categories:
   - title: Apprenticeship Patterns
     authors: Hoover & Oshineye
     url: https://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382
-
-  - title: The Productive Programmer
-    authors: Ford
-    url: https://www.amazon.com/Productive-Programmer-Theory-Practice-OReilly/dp/0596519788
-    purchased: 2009-10-23
-
+    rating: 3
+    notes: |
+      Thirty-five techniques for leveling up. Each describes a way you might get
+      stuck at some point in your career, and then shows how to overcome the
+      obstacle. Hoover & Oshineye describe tactics for confronting a pocket of
+      ignorance, leaning into strengths (and weaknesses!), self-assessing,
+      learning (and unlearning!), synthesizing, teaching, and finding mentors
+      in convential and unconventional ways. The text is fairly skimmable,
+      but I found it valuable just to enumerate the ways one's growth can stall
+      — and to see alternate paths forward.
 
 
 - name: Code & Architecture

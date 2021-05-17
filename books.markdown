@@ -134,7 +134,17 @@ starting around p160.
 [**Shape Up** (Singer)](https://basecamp.com/shapeup)
 {: class="book-name"}
 
-&nbsp;{: class="book-notes"}
+A methodology for Product Discovery and Design. I appreciated several
+ideas in _Shape Up._ I love the idea of incorporating appetite (how much
+time are we willing to spend on this problem?) into each business bet —
+that's not only a way of shaping a team's choics without dictating them,
+but also a way of noticing risk early! Singer also adds to the conversation
+around low-fi prototyping — it's about more than lowering the cost of
+discovery and deferring commitment on design details, it's about
+_delivering_ a baseline for quality and an opportunity to unearth risks
+earlier.
+<br><small>Read in 2019</small>
+{: class="book-notes"}
 
 <div class="book-rating book-rating-2">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %} {% octicon star height:14 %}</div>
 [**Living with Complexity** (Norman)](https://www.amazon.com/Living-Complexity-Press-Donald-Norman/dp/0262528940)
@@ -231,12 +241,6 @@ book) that I found most valuable are:
 {: class="book-notes"}
 
 <div class="book-rating book-rating-3">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %}</div>
-[**Good to Great** (Collins)](https://www.amazon.com/Good-Great-Some-Companies-Others/dp/0066620996)
-{: class="book-name"}
-
-&nbsp;{: class="book-notes"}
-
-<div class="book-rating book-rating-3">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %}</div>
 [**Multipliers** (Wiseman)](https://www.amazon.com/Multipliers-Revised-Updated-Leaders-Everyone/dp/0062663070)
 {: class="book-name"}
 
@@ -260,23 +264,50 @@ limiting growth of teammates and concrete thinks to try and practice.
 
 &nbsp;{: class="book-notes"}
 
-<div class="book-rating book-rating-3">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %}</div>
+<div class="book-rating book-rating-2">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %} {% octicon star height:14 %}</div>
+[**Good to Great** (Collins)](https://www.amazon.com/Good-Great-Some-Companies-Others/dp/0066620996)
+{: class="book-name"}
+
+Lucid prose, enjoyable stories, solid read. I don't see myself _rereading_
+this book, but I do find myself revisiting and applying a few vivid concepts
+I learned from it: [The Hedgehog Concept](https://www.jimcollins.com/concepts/the-hedgehog-concept.html) and [The Flywheel](https://www.jimcollins.com/concepts/the-flywheel.html).
+<br><small>Read in 2019?</small>
+{: class="book-notes"}
+
+<div class="book-rating book-rating-2">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %} {% octicon star height:14 %}</div>
 [**Peopleware** (DeMarco & Lister)](https://www.amazon.com/Peopleware-Productive-Projects-Teams-3rd/dp/0321934113)
 {: class="book-name"}
 
-&nbsp;{: class="book-notes"}
+This was a book I read early in my career as an Engineering Manager, and it
+gave me the feeling of distilling much of what Software Engineering Management
+had learned up to 1999 and handing it forward. It covers a lot of ground. It
+has held up pretty well.
+<br><small>Read in 2012</small>
+{: class="book-notes"}
 
 <div class="book-rating book-rating-2">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %} {% octicon star height:14 %}</div>
-[**Lean Software Development** (Poppendieck)](https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)
+[**Lean Software Development: An Agile Toolkit** (Poppendieck)](https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)
 {: class="book-name"}
 
-&nbsp;{: class="book-notes"}
+Start with _Implementing Lean Software Development_ (above). This book,
+published 3 years prior to _Implementing_ has essentially the same
+content, but I found it arranged better — and expanded where I wanted
+expansion in _Implementing._ That said, this book is arranged into 22
+Tools to help you do things like make decisions at the last responsible
+moment, ship faster, empower workers, and amplify learning.
+<br><small>Read in 2014</small>
+{: class="book-notes"}
 
 <div class="book-rating book-rating-2">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %} {% octicon star height:14 %}</div>
 [**The Lean Mindset** (Poppendieck)](https://www.amazon.com/Lean-Mindset-Ask-Right-Questions/dp/0321896904)
 {: class="book-name"}
 
-&nbsp;{: class="book-notes"}
+Start with _Implementing Lean Software Development_ (above). This book is a
+little more philosophical — "mindset" is an apt word. It attempts to capture
+what a Lean Business believes at its heart about its Purpose, Workers,
+Customers, the nature of Efficiency and the sources of Innovation.
+<br><small>Read in 2014</small>
+{: class="book-notes"}
 
 <div class="book-rating book-rating-2">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %} {% octicon star height:14 %}</div>
 [**Artful Making** (Devin & Austin)](https://www.amazon.com/Artful-Making-Managers-About-Artists/dp/0130086959)
@@ -357,15 +388,19 @@ and the _Challenger_ explosion.
 <br><small>Read in 2015</small>
 {: class="book-notes"}
 
+<div class="book-rating book-rating-3">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %}</div>
 [**Apprenticeship Patterns** (Hoover & Oshineye)](https://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382)
 {: class="book-name"}
 
-&nbsp;{: class="book-notes"}
-
-[**The Productive Programmer** (Ford)](https://www.amazon.com/Productive-Programmer-Theory-Practice-OReilly/dp/0596519788)
-{: class="book-name"}
-
-&nbsp;{: class="book-notes"}
+Thirty-five techniques for leveling up. Each describes a way you might get
+stuck at some point in your career, and then shows how to overcome the
+obstacle. Hoover & Oshineye describe tactics for confronting a pocket of
+ignorance, leaning into strengths (and weaknesses!), self-assessing,
+learning (and unlearning!), synthesizing, teaching, and finding mentors
+in convential and unconventional ways. The text is fairly skimmable,
+but I found it valuable just to enumerate the ways one's growth can stall
+— and to see alternate paths forward.
+{: class="book-notes"}
 
 * * *
 ### Code & Architecture
