@@ -436,6 +436,21 @@ the _Why?_ for their system of practices.
 &nbsp;{: class="book-notes"}
 
 <div class="book-rating book-rating-3">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %}</div>
+[**A Philosophy of Software Design** (Ousterhout)](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)
+{: class="book-name"}
+
+A quick read. Ousterhout defines the engineer's task as managing complexity.
+He begins with great insights on this like _Isolating complexity where it
+will rarely be seen is almost as good as eliminating it_ and _The best modules
+are those whose interfaces are much simpler than their implementations._
+I appreciated the tips in "Pull Complexity Down" and "Define Errors out of
+Existence" and the many concrete examples throughout. I was surprised that
+he spent 21% of the book promoting comments — what felt apt at first eventually
+felt like a soapbox. I got twice as much out of the first half as the second half.
+<br><small>Read in 2021</small>
+{: class="book-notes"}
+
+<div class="book-rating book-rating-3">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %}</div>
 [**Site Reliability Engineering** (Murphy, Beyer, Jones, Petoff)](https://www.amazon.com/Site-Reliability-Engineering-Production-Systems/dp/149192912X)
 {: class="book-name"}
 
@@ -601,11 +616,6 @@ I don't think it delivered on its Introduction's promise.
 
 * * *
 ### My Current Reading List
-[**A Philosophy of Software Design** (Ousterhout)](https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201)
-{: class="book-name"}
-
-&nbsp;{: class="book-notes"}
-
 [**The Art of Doing Science and Engineering: Learning to Learn** (Hamming)](https://www.amazon.com/gp/product/1732265178)
 {: class="book-name"}
 

@@ -370,6 +370,21 @@ categories:
     url: https://www.amazon.com/Practical-Object-Oriented-Design-Agile-Primer/dp/0134456475
     rating: 3
 
+  - title: A Philosophy of Software Design
+    authors: Ousterhout
+    url: https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201
+    rating: 3
+    years_read: 2021
+    notes: |
+      A quick read. Ousterhout defines the engineer's task as managing complexity.
+      He begins with great insights on this like _Isolating complexity where it
+      will rarely be seen is almost as good as eliminating it_ and _The best modules
+      are those whose interfaces are much simpler than their implementations._
+      I appreciated the tips in "Pull Complexity Down" and "Define Errors out of
+      Existence" and the many concrete examples throughout. I was surprised that
+      he spent 21% of the book promoting comments — what felt apt at first eventually
+      felt like a soapbox. I got twice as much out of the first half as the second half.
+
   - title: Site Reliability Engineering
     authors: Murphy, Beyer, Jones, Petoff
     url: https://www.amazon.com/Site-Reliability-Engineering-Production-Systems/dp/149192912X
@@ -538,10 +553,6 @@ categories:
 
 - name: My Current Reading List
   books:
-
-  - title: A Philosophy of Software Design
-    authors: Ousterhout
-    url: https://www.amazon.com/Philosophy-Software-Design-John-Ousterhout/dp/1732102201
 
   - title: "The Art of Doing Science and Engineering: Learning to Learn"
     authors: Hamming
