@@ -85,7 +85,7 @@ humor!
 {: class="book-notes"}
 
 <div class="book-rating book-rating-3">{% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star-fill height:14 %} {% octicon star height:14 %}</div>
-[**The Lean Startup** (Reiss)](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
+[**The Lean Startup** (Ries)](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
 {: class="book-name"}
 
 How to measure and how to implement Product Discovery
